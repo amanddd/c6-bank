@@ -1,0 +1,56 @@
+body {
+    // background: url("../images/c6bank/hero-bg-xs.webp") no-repeat;
+    // background-size: contain;
+    width: 100%;
+    // height: calc(100vh - 100px - 100px);
+    display: flex;
+    & > header {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        background: #ffff;
+        transition-duration: 0.5s;
+        justify-content: center;
+        display: flex;
+        height: 100px;
+        width: 100%;
+        display:flex;
+        & > nav{
+            width: 70%;
+            & > ul{
+                margin: 0;
+                display: flex;
+                > li{
+                    list-style: none;
+                    margin-right: 20px;
+                    > a{
+                        text-decoration: none;
+                        color: #222;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        button {
+            width: 290px;
+            height: 40px;
+            border: none;
+            text-transform: uppercase;
+            color: #333;
+            background: #FFE45C;
+            font-size: 0.8em;
+            border-radius: 20px;
+        }
+    }
+}
+
+/*@media ...*/
+
+.jss590{
+    fill: hsla(0, 0%, 14%, 1);
+}
+
+.jss590{
+    width: auto;
+    height: 24px;
+}
